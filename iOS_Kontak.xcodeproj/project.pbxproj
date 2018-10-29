@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E2B14E922186D19700F3753D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B14E912186D19700F3753D /* AppDelegate.swift */; };
-		E2B14E942186D19700F3753D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B14E932186D19700F3753D /* ViewController.swift */; };
+		E2B14E942186D19700F3753D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B14E932186D19700F3753D /* TableViewController.swift */; };
 		E2B14E972186D19700F3753D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B14E952186D19700F3753D /* Main.storyboard */; };
 		E2B14E992186D19C00F3753D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B14E982186D19C00F3753D /* Assets.xcassets */; };
 		E2B14E9C2186D19C00F3753D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B14E9A2186D19C00F3753D /* LaunchScreen.storyboard */; };
+		E2B14EA42186D31700F3753D /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B14EA32186D31700F3753D /* Contacts.swift */; };
+		E2B14EA62186D3FC00F3753D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B14EA52186D3FC00F3753D /* Utilities.swift */; };
+		E2B14EA82186D45E00F3753D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B14EA72186D45E00F3753D /* DetailViewController.swift */; };
+		E2B14EAA2186D4A200F3753D /* NewContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B14EA92186D4A200F3753D /* NewContactTableViewController.swift */; };
+		E2B14EAC2186D79800F3753D /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = E2B14EAB2186D79800F3753D /* contacts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E2B14E8E2186D19700F3753D /* iOS_Kontak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Kontak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B14E912186D19700F3753D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2B14E932186D19700F3753D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2B14E932186D19700F3753D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E2B14E962186D19700F3753D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2B14E982186D19C00F3753D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B14E9B2186D19C00F3753D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B14E9D2186D19C00F3753D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B14EA32186D31700F3753D /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		E2B14EA52186D3FC00F3753D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E2B14EA72186D45E00F3753D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E2B14EA92186D4A200F3753D /* NewContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactTableViewController.swift; sourceTree = "<group>"; };
+		E2B14EAB2186D79800F3753D /* contacts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				E2B14E912186D19700F3753D /* AppDelegate.swift */,
-				E2B14E932186D19700F3753D /* ViewController.swift */,
+				E2B14EA32186D31700F3753D /* Contacts.swift */,
+				E2B14EAB2186D79800F3753D /* contacts.json */,
+				E2B14E932186D19700F3753D /* TableViewController.swift */,
+				E2B14EA72186D45E00F3753D /* DetailViewController.swift */,
+				E2B14EA92186D4A200F3753D /* NewContactTableViewController.swift */,
+				E2B14EA52186D3FC00F3753D /* Utilities.swift */,
 				E2B14E952186D19700F3753D /* Main.storyboard */,
 				E2B14E982186D19C00F3753D /* Assets.xcassets */,
 				E2B14E9A2186D19C00F3753D /* LaunchScreen.storyboard */,
@@ -122,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B14EAC2186D79800F3753D /* contacts.json in Resources */,
 				E2B14E9C2186D19C00F3753D /* LaunchScreen.storyboard in Resources */,
 				E2B14E992186D19C00F3753D /* Assets.xcassets in Resources */,
 				E2B14E972186D19700F3753D /* Main.storyboard in Resources */,
@@ -135,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B14E942186D19700F3753D /* ViewController.swift in Sources */,
+				E2B14E942186D19700F3753D /* TableViewController.swift in Sources */,
 				E2B14E922186D19700F3753D /* AppDelegate.swift in Sources */,
+				E2B14EA82186D45E00F3753D /* DetailViewController.swift in Sources */,
+				E2B14EAA2186D4A200F3753D /* NewContactTableViewController.swift in Sources */,
+				E2B14EA62186D3FC00F3753D /* Utilities.swift in Sources */,
+				E2B14EA42186D31700F3753D /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3UFQ8Z98S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS_Kontak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3UFQ8Z98S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS_Kontak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
